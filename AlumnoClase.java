@@ -36,6 +36,6 @@ public class AlumnoClase {
     }
     public void setNumCal(int numCal) {
         this.numCal = numCal;
-        this.cali = new int[numCal]; // Resize the array if numCal changes
+        this.cali = new int[numCal]; // Cambiar el tamaño del array si cambia numCal
     }
 }
